@@ -1,0 +1,2 @@
+mongo db ek noSQL database hai no sql means k not much restrictions in structured (no tabular) but hum bnaskty
+mongodb js ka stack mn hi fall krti hai, yeh document based structure hai (bson),,, fast h

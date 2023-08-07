@@ -1,0 +1,45 @@
+.MuiButtonBase-root.btn {
+    border-radius: 25px;
+    box-shadow: none;
+    width: 9.375rem;
+    font-size: 0.6875rem;
+    padding: 0.625rem;
+    margin-right: 1.25rem;
+}
+
+.MuiButtonBase-root.addToCard-btn {
+    width: 7rem;
+    font-size: 0.6rem;
+    padding: 0.5rem;
+    margin-right: 1.25rem;
+}
+
+
+/* SMALL DEVICES */
+@media only screen and (max-width: 768px) {
+    .MuiButtonBase-root.btn {
+        width: 6rem;
+        font-size: 0.65rem;
+        padding: 0.25rem;
+        margin-right: 1rem;
+    }
+}
+/* MOBILE S-320px and M-425px*/
+@media only screen and (max-width: 425px) {
+    .MuiButtonBase-root.nav-btn {
+        width: 4rem;
+        margin-right: 0px;
+    }
+}
+
+/* MOBILE L-768px*/
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+    .MuiButtonBase-root.nav-btn {
+        width: 7rem;
+        font-size: 0.7rem;
+        padding: 0.45rem;
+        margin-right: -8px;
+    }
+}
+
+/*No need to do responsive on LAPTOP-1024px and LAPTOP L-1440px*/

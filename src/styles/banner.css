@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Serif+Caption&display=swap');
+
+.banner-main {
+    width: 100%;
+    height: auto;
+}
+
+.flex {
+    display: flex;
+}
+ 
+.banner-section1 .banner-left,
+.banner-section1 .banner-right {
+    width: 50%;
+    height: 600px;
+}
+
+.MuiTypography-root.bannerText {
+    font-size: 5.5rem;
+    margin: 50px 0 0 0;
+    font-family: "PT Serif Caption";
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.03rem;
+}
+
+.MuiTypography-p.pTag {
+    margin-top: 1.30rem;
+    font-weight: bold
+}
+
+.banner-btns {
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.banner-right {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-food-img {
+    width: 88%;
+}
+
+
+
+/* LARGE DEVICES */
+@media only screen and (min-width: 768px ) and (max-width: 1024px ){
+    .MuiTypography-root.bannerText {
+        font-size: 3.8rem;
+    }
+    .banner-section1 .banner-right {
+       height: 400px;
+        
+    }.banner-food-img {
+        width: 100%;
+    }
+    
+}
+/* SMALL DEVICES */
+@media only screen and (max-width: 767px) {
+    .banner-section1 .banner-right {
+        display: none;
+    }
+    .banner-section1 {
+        display: block;
+        height: 400px;
+    }
+    .banner-section1 .banner-left{
+        width: 100%;
+    }
+    .banner-section1 .banner-right {
+        display: none;
+    }
+    .banner-section2{
+        width: 100%;
+        margin-top: 70px;
+    }
+}
+
+/* MOBILE S-320px*/
+@media only screen and (max-width: 320px) {
+    .MuiTypography-root.bannerText {
+        font-size: 3rem;
+        margin-top: 30px;
+    }
+    .banner-section2{
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+/* MOBILE M-375px*/
+@media only screen and (min-width: 321px) and (max-width: 425px) {
+    .MuiTypography-root.bannerText {
+        font-size: 3.7rem;
+        margin-top: 30px;
+    }
+}
+
+/* MOBILE L-425px*/
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+    .MuiTypography-root.bannerText {
+        font-size: 4rem;
+        margin-top: 30px;
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* normal css in rem, responsive scc in rem, dono ko divide ans ko body mn percent */
+/* @media only screen and (max-width: 1094px) {
+
+    body {
+        font-size: 42%;
+    }
+    .MuiTypography-root.bannerText {
+        font-size: 3.75rem;
+        margin-top: 70px;
+    }
+
+    .banner-section1 .banner-right {
+        height: 550px;
+    }
+
+    .banner-food-img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 934px) {
+    .MuiTypography-root.bannerText {
+        font-size: 3.125rem;
+        margin-top: 70px;
+    }
+
+    .banner-section1 .banner-right {
+        height: 500px;
+    }
+
+    .banner-food-img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 782px) {
+    .MuiTypography-root.bannerText {
+        font-size: 2.81rem;
+        margin-top: 70px;
+    }
+
+    .banner-section1 .banner-right {
+        height: 500px;
+    }
+
+    .banner-food-img {
+        width: 100%;
+    }
+} */

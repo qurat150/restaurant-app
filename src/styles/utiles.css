@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Serif+Caption&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(223, 223, 223);
+    color: black;
+}
+
+.main {
+    max-width: 80%;
+    height: 100vh;
+    margin: auto;
+
+}
+.redColor{
+    color: #d31b27;
+}
+/* MOBILE DEVICES */
+@media only screen and (max-width: 375px) {
+    .main {
+        max-width: 80%;
+        height: 100vh;
+        margin: auto;
+    
+    }
+}
